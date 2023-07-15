@@ -1,7 +1,12 @@
 {
-  "name": "next-ts-template",
+  "name": "next-js-template",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=18.16.1",
+    "yarn": ">=1.22.19",
+    "npm": "use-yarn"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
