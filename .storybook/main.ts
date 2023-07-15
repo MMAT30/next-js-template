@@ -11,7 +11,10 @@ const config: StorybookConfig = {
     name: '@storybook/nextjs',
     options: {},
   },
-  core: {},
+  core: {
+    disableTelemetry: true,
+    enableCrashReports: false,
+  },
   docs: {
     autodocs: 'tag',
   },
